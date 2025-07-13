@@ -9,6 +9,34 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>PurposefulDayWatch Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2338A60E2DC816560007B552</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2338A61E2DC816570007B552</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2338A6282DC816570007B552</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23D8C80B2E08C489006833BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

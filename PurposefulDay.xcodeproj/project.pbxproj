@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		23D8C82F2E08C48A006833BB /* PurposefulDayWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 23D8C80C2E08C489006833BB /* PurposefulDayWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2338A6202DC816570007B552 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,12 +25,50 @@
 			remoteGlobalIDString = 2338A60E2DC816560007B552;
 			remoteInfo = PurposefulDay;
 		};
+		23D8C81C2E08C48A006833BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2338A6072DC816560007B552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D8C80B2E08C489006833BB;
+			remoteInfo = "PurposefulDayWatch Watch App";
+		};
+		23D8C8262E08C48A006833BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2338A6072DC816560007B552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D8C80B2E08C489006833BB;
+			remoteInfo = "PurposefulDayWatch Watch App";
+		};
+		23D8C82D2E08C48A006833BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2338A6072DC816560007B552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D8C80B2E08C489006833BB;
+			remoteInfo = "PurposefulDayWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23D8C8332E08C48A006833BB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				23D8C82F2E08C48A006833BB /* PurposefulDayWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2338A60F2DC816560007B552 /* PurposefulDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurposefulDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2338A61F2DC816570007B552 /* PurposefulDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurposefulDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2338A6292DC816570007B552 /* PurposefulDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurposefulDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D8C80C2E08C489006833BB /* PurposefulDayWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PurposefulDayWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D8C81B2E08C48A006833BB /* PurposefulDayWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PurposefulDayWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D8C8252E08C48A006833BB /* PurposefulDayWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PurposefulDayWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +85,26 @@
 		2338A62C2DC816570007B552 /* PurposefulDayUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PurposefulDayUITests;
+			sourceTree = "<group>";
+		};
+		23D8C8062E08C2A4006833BB /* PurposefulDayWatch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PurposefulDayWatch;
+			sourceTree = "<group>";
+		};
+		23D8C80D2E08C489006833BB /* PurposefulDayWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PurposefulDayWatch Watch App";
+			sourceTree = "<group>";
+		};
+		23D8C81E2E08C48A006833BB /* PurposefulDayWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PurposefulDayWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		23D8C8282E08C48A006833BB /* PurposefulDayWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PurposefulDayWatch Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,15 +131,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23D8C8092E08C489006833BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D8C8182E08C48A006833BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D8C8222E08C48A006833BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2338A6062DC816560007B552 = {
 			isa = PBXGroup;
 			children = (
+				23D8C8062E08C2A4006833BB /* PurposefulDayWatch */,
 				2338A6112DC816560007B552 /* PurposefulDay */,
 				2338A6222DC816570007B552 /* PurposefulDayTests */,
 				2338A62C2DC816570007B552 /* PurposefulDayUITests */,
+				23D8C80D2E08C489006833BB /* PurposefulDayWatch Watch App */,
+				23D8C81E2E08C48A006833BB /* PurposefulDayWatch Watch AppTests */,
+				23D8C8282E08C48A006833BB /* PurposefulDayWatch Watch AppUITests */,
 				2338A6102DC816560007B552 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +175,9 @@
 				2338A60F2DC816560007B552 /* PurposefulDay.app */,
 				2338A61F2DC816570007B552 /* PurposefulDayTests.xctest */,
 				2338A6292DC816570007B552 /* PurposefulDayUITests.xctest */,
+				23D8C80C2E08C489006833BB /* PurposefulDayWatch Watch App.app */,
+				23D8C81B2E08C48A006833BB /* PurposefulDayWatch Watch AppTests.xctest */,
+				23D8C8252E08C48A006833BB /* PurposefulDayWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +192,12 @@
 				2338A60B2DC816560007B552 /* Sources */,
 				2338A60C2DC816560007B552 /* Frameworks */,
 				2338A60D2DC816560007B552 /* Resources */,
+				23D8C8332E08C48A006833BB /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				23D8C82E2E08C48A006833BB /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				2338A6112DC816560007B552 /* PurposefulDay */,
@@ -163,6 +255,74 @@
 			productReference = 2338A6292DC816570007B552 /* PurposefulDayUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		23D8C80B2E08C489006833BB /* PurposefulDayWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D8C8302E08C48A006833BB /* Build configuration list for PBXNativeTarget "PurposefulDayWatch Watch App" */;
+			buildPhases = (
+				23D8C8082E08C489006833BB /* Sources */,
+				23D8C8092E08C489006833BB /* Frameworks */,
+				23D8C80A2E08C489006833BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				23D8C80D2E08C489006833BB /* PurposefulDayWatch Watch App */,
+			);
+			name = "PurposefulDayWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "PurposefulDayWatch Watch App";
+			productReference = 23D8C80C2E08C489006833BB /* PurposefulDayWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23D8C81A2E08C48A006833BB /* PurposefulDayWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D8C8342E08C48A006833BB /* Build configuration list for PBXNativeTarget "PurposefulDayWatch Watch AppTests" */;
+			buildPhases = (
+				23D8C8172E08C48A006833BB /* Sources */,
+				23D8C8182E08C48A006833BB /* Frameworks */,
+				23D8C8192E08C48A006833BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D8C81D2E08C48A006833BB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				23D8C81E2E08C48A006833BB /* PurposefulDayWatch Watch AppTests */,
+			);
+			name = "PurposefulDayWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "PurposefulDayWatch Watch AppTests";
+			productReference = 23D8C81B2E08C48A006833BB /* PurposefulDayWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23D8C8242E08C48A006833BB /* PurposefulDayWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D8C8372E08C48A006833BB /* Build configuration list for PBXNativeTarget "PurposefulDayWatch Watch AppUITests" */;
+			buildPhases = (
+				23D8C8212E08C48A006833BB /* Sources */,
+				23D8C8222E08C48A006833BB /* Frameworks */,
+				23D8C8232E08C48A006833BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D8C8272E08C48A006833BB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				23D8C8282E08C48A006833BB /* PurposefulDayWatch Watch AppUITests */,
+			);
+			name = "PurposefulDayWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "PurposefulDayWatch Watch AppUITests";
+			productReference = 23D8C8252E08C48A006833BB /* PurposefulDayWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +344,17 @@
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = 2338A60E2DC816560007B552;
 					};
+					23D8C80B2E08C489006833BB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					23D8C81A2E08C48A006833BB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 23D8C80B2E08C489006833BB;
+					};
+					23D8C8242E08C48A006833BB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 23D8C80B2E08C489006833BB;
+					};
 				};
 			};
 			buildConfigurationList = 2338A60A2DC816560007B552 /* Build configuration list for PBXProject "PurposefulDay" */;
@@ -203,6 +374,9 @@
 				2338A60E2DC816560007B552 /* PurposefulDay */,
 				2338A61E2DC816570007B552 /* PurposefulDayTests */,
 				2338A6282DC816570007B552 /* PurposefulDayUITests */,
+				23D8C80B2E08C489006833BB /* PurposefulDayWatch Watch App */,
+				23D8C81A2E08C48A006833BB /* PurposefulDayWatch Watch AppTests */,
+				23D8C8242E08C48A006833BB /* PurposefulDayWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +397,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2338A6272DC816570007B552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D8C80A2E08C489006833BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D8C8192E08C48A006833BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D8C8232E08C48A006833BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +448,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23D8C8082E08C489006833BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D8C8172E08C48A006833BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D8C8212E08C48A006833BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +481,21 @@
 			isa = PBXTargetDependency;
 			target = 2338A60E2DC816560007B552 /* PurposefulDay */;
 			targetProxy = 2338A62A2DC816570007B552 /* PBXContainerItemProxy */;
+		};
+		23D8C81D2E08C48A006833BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D8C80B2E08C489006833BB /* PurposefulDayWatch Watch App */;
+			targetProxy = 23D8C81C2E08C48A006833BB /* PBXContainerItemProxy */;
+		};
+		23D8C8272E08C48A006833BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D8C80B2E08C489006833BB /* PurposefulDayWatch Watch App */;
+			targetProxy = 23D8C8262E08C48A006833BB /* PBXContainerItemProxy */;
+		};
+		23D8C82E2E08C48A006833BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D8C80B2E08C489006833BB /* PurposefulDayWatch Watch App */;
+			targetProxy = 23D8C82D2E08C48A006833BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -396,6 +627,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PurposefulDay/Preview Content\"";
+				DEVELOPMENT_TEAM = B7286J4L6Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -403,6 +635,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_WKAppBundleIdentifier = "$(PRODUCT_BUNDLE_IDENTIFIER).watchkitapp";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -424,6 +657,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PurposefulDay/Preview Content\"";
+				DEVELOPMENT_TEAM = B7286J4L6Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -512,6 +746,145 @@
 			};
 			name = Release;
 		};
+		23D8C8312E08C48A006833BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PurposefulDayWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = B7286J4L6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PurposefulDayWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jatestapps.PurposefulDay;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jatestapps.PurposefulDay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		23D8C8322E08C48A006833BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PurposefulDayWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = B7286J4L6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PurposefulDayWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jatestapps.PurposefulDay;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jatestapps.PurposefulDay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		23D8C8352E08C48A006833BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7286J4L6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jatestapps.PurposefulDayWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PurposefulDayWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PurposefulDayWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		23D8C8362E08C48A006833BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7286J4L6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jatestapps.PurposefulDayWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PurposefulDayWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PurposefulDayWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		23D8C8382E08C48A006833BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7286J4L6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jatestapps.PurposefulDayWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PurposefulDayWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		23D8C8392E08C48A006833BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7286J4L6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jatestapps.PurposefulDayWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PurposefulDayWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,6 +920,33 @@
 			buildConfigurations = (
 				2338A63A2DC816570007B552 /* Debug */,
 				2338A63B2DC816570007B552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D8C8302E08C48A006833BB /* Build configuration list for PBXNativeTarget "PurposefulDayWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D8C8312E08C48A006833BB /* Debug */,
+				23D8C8322E08C48A006833BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D8C8342E08C48A006833BB /* Build configuration list for PBXNativeTarget "PurposefulDayWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D8C8352E08C48A006833BB /* Debug */,
+				23D8C8362E08C48A006833BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D8C8372E08C48A006833BB /* Build configuration list for PBXNativeTarget "PurposefulDayWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D8C8382E08C48A006833BB /* Debug */,
+				23D8C8392E08C48A006833BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
