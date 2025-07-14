@@ -21,15 +21,15 @@ In broad strokes, this App may have some similarities with the 'Productive' App.
 
 
 ## Success Criterion:
-	1. The App should be installable and uninstallable without any issues
-	2. The App should be able to create new 'task' and create a way to schedule a task within a time frame (day or week)
-	3. The App should be able to display that certain tasks are completed whereas others are not yet completed. 
-	4. Tasks should have timed segments. These should work as expected.
+1. The App should be installable and uninstallable without any issues
+2. The App should be able to create new 'task' and create a way to schedule a task within a time frame (day or week)
+3. The App should be able to display that certain tasks are completed whereas others are not yet completed. 
+4. Tasks should have timed segments. These should work as expected.
 
 ## Topics not touched upon:
-	- Aesthetics of the app
-	- UX of the App
-	- May have to revamp the terminology here 'task' to something else. In my mind, it is like a class definition and instantiation of the class (as in OOP)
+- Aesthetics of the app
+- UX of the App
+- May have to revamp the terminology here 'task' to something else. In my mind, it is like a class definition and instantiation of the class (as in OOP)
 
 
  ## Current status of the project (2025-07-13)
