@@ -33,18 +33,20 @@ In broad strokes, this App may have some similarities with the 'Productive' App.
 
 
  ## Current status of the project (2025-07-13)
-I worked on this project to try and gain experience in building Apps in Apple ecosystem. Getting the App to run on my devices. As on 2025-07-13, I am able to install the 
+I worked on this project to try and gain experience in building Apps in Apple ecosystem. Getting the App to run on my devices. As of today, I am able to install the App on my Phone and Watch. They work but has a lot of issues still. 
 
+Reflections on why I am dropping this project:
 
-	- A few weeks back, I discovered that there are plenty of Apps that give workout+recovery timers
-	  - Today, I also realized that Apple's very own 'Workout' app on the watch allows creation of custom workouts that meet my requirements elegantly
-	- So, the only value addition from my app will be for non-workout applications. But this was a secondary purpose even in my mind.
-	- This means I am unlikely to use my own app if it is available via Apple Store. 
-	- Moreover, to just make the app available on Apple store, I have to pay $99 per year. Apple Developer Program membership.
-	- Also, considering I am able to get the App installed on my iphone and Apple Watch - I think I have learned **most** of what I expected to learn from this exercise. This is:
-		○ Create an iPhone App (+Watch App companion). Since AI could do it WAAAAY faster that I could do it on my own, I chose to use Claude+CLINE setup to get this done. 
-		○ Sure, the app still has plenty of issues still. But for me to iron these out, it will take me a lot of time - I will have to dig into the code and straighten out things on my own. Claude has not been able to clear this up despite multiple tries on my part. 
-			§ Maybe asking Claude to create a whole new app - this time iPhone+Watch App right from the start - may get things working just fine. But I have lost the excitement and motivation for this project due to the above cited reasons and some other reasons (want to ensure I am using my time on the highest value yielding projects/tasks).
+- A few weeks back, I discovered that there are plenty of Apps that give workout+recovery timers
+  - Today, I also realized that Apple's very own 'Workout' app on the watch allows creation of custom workouts that meet my requirements elegantly
+- So, the only value addition from my app will be for non-workout applications. But this was a secondary purpose even in my mind.
+- This means I am unlikely to use my own app if it is available via Apple Store. 
+- Moreover, to just make the app available on Apple store, I have to pay $99 per year. Apple Developer Program membership.
+- Also, considering I am able to get the App installed on my iphone and Apple Watch - I think I have learned **most** of what I expected to learn from this exercise. This is:
+  - Create an iPhone App (+Watch App companion). Since AI could do it WAAAAY faster that I could do it on my own, I chose to use Claude+CLINE setup to get this done.
+  - Sure, the app still has plenty of issues still. But for me to iron these out, it will take me a lot of time - I will have to dig into the code and straighten out things on my own. Claude has not been able to clear this up despite multiple tries on my part. 
+
+Maybe asking Claude to create a whole new app - this time iPhone+Watch App right from the start - may get things working just fine. But I have lost the excitement and motivation for this project due to the above cited reasons and some other reasons (want to ensure I am using my time on the highest value yielding projects/tasks).
 
 All to say that I have lost the excitement that I ought to experience from doing this project. Moreover, I have mostly obtained the exposure I hoped to gain from it - 
 	- Figured out how to set up an App (even though Claude did almost all the work)
