@@ -3,7 +3,7 @@ This Project should produce an iOS App that can be used to increase an individua
 Within the task, it has the capability to capture a timed sequence (eg: brisk walk for 10 mins- jog for 5 mins- run for 30 mins - jog for 5 mins - run for another 30 mins -jog for 5 mins - brisk walk for 10 mins etc..) Once completed, the user can also later on see their level of compliance with the planned schedule. The best way to present this info is TBD.
 This data will be saved to a User's profile and is synced with an online backup. Even if the person uninstalls app, deletes data from phone, then reinstalls the app, once they log back into their account, they will be able to access their historical data.
 
-In broad strokes, this App may have some similarities with the 'Productive' App. Note that here the objective is not really to get a lot of users or income from this project- the primary objective is 'learning by doing'.<img width="1480" height="438" alt="image" src="https://github.com/user-attachments/assets/bba3e1eb-6aba-4d76-8380-07c01536386e" />
+In broad strokes, this App may have some similarities with the 'Productive' App. Note that here the objective is not really to get a lot of users or income from this project- the primary objective is 'learning by doing'.
 
 
 ## What are the Priorities for the project?
